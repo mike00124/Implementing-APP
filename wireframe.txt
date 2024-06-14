@@ -1,0 +1,54 @@
+A. Sample for Setting Context
+Context (what are we trying to do and why)
+
+Users have requested a “snooze” functionality in their inboxes.
+User research has indicated that this is similar to “snoozing an alarm clock” - i.e., “Do not tell me about this email until such and such time.”
+The feature we plan to implement will be available at an “email level” as well as on multiple emails at once (similar to the existing delete functionality).
+B. Wireframes Showing User Flows
+B. Wireframes Showing User Flows
+1. Existing Screen for Starting Reference
+User has opened an email
+
+2. New “Snooze” Icon Introduced
+Introduction of the snooze icon in the email toolbar
+
+3. User Clicks on Icon - Menu Opens with Multiple Options
+User clicks on the snooze icon, and a dropdown menu with snooze options appears
+
+C. Wireframe Details
+Annotated Wireframe
+
+Snooze Dropdown Menu
+
+Specs for Engineer
+
+Clicking on the Snooze Icon
+
+A dropdown menu opens with multiple options.
+Title of the Dropdown Menu
+
+"Snooze until…"
+This title appears at the top of the dropdown menu.
+Default Options
+
+Each option has “human readable” text and the exact date-time value mentioned.
+The text is left-aligned, and the date-time value is right-aligned.
+Default Options Details
+
+Later today:
+Before 12 PM, it is 6 PM the same day.
+Between 12 PM and 6 PM, it is 10 PM the same day.
+After 6 PM, this option does not show up.
+Tomorrow:
+Always 8 AM the next day.
+Later this week:
+On Saturday to Thursday - show Friday 8 AM.
+On Fridays, do not show this option.
+This weekend:
+On Monday to Friday - show Sunday 8 AM.
+On Saturday & Sunday, show next week’s Sunday 8 AM. Option text changes to “Next weekend.”
+Next week:
+On all days, always Monday 8 AM the next week.
+Custom Option
+
+Clicking on this will open a standard “Date-Time” selector.
