@@ -1,0 +1,7 @@
+A. Sample for Setting Context
+Context (what are we trying to do and why)
+
+Users have requested a “snooze” functionality in their inboxes.
+User research has indicated that this is similar to “snoozing an alarm clock” - i.e., “Do not tell me about this email until such and such time.”
+The feature we plan to implement will be available at an “email level” as well as on multiple emails at once (similar to the existing delete functionality).
+B. Wireframes Showing User Flows
